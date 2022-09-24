@@ -17,6 +17,9 @@ function App() {
         </Dog>
         <SummaExpr a="1" b="2"> + </SummaExpr>
         <Summa a="1" b="2"/>
+        <Parent0 childrenAge="0"/>
+        <Parent1 childrenAge="0"/>
+        <Parent2 childrenAge="0"/>
       </header>
     </div>
   );
@@ -49,10 +52,43 @@ function Summa(props) {
   )
 };
 
-function SummaExpr (props, {children}) {
+function SummaExpr (props  /* , {children} */) {  /* It's redundant to call children like this, it's already inside props */
   return (
     <>
       {props.a} {props.children} {props.b} =
+    </>
+  )
+};
+
+
+// data flows just in parent-to-child direction
+function Parent0 ( props ){
+  // // WE CANNOT DO THIS
+  // props.childrenAge += 1
+  return (
+    <>
+      <p>The age of children is {props.childrenAge}</p>
+    </>
+  )
+};
+
+function Parent1 ( props ){
+  // // we CAN do this
+  // using a storing variable
+  let stor_var = parseInt(props.childrenAge) + 1
+  return (
+    <>
+      <p>The age of children is {stor_var}</p>
+    </>
+  )
+};
+
+function Parent2 ( props ){
+  // using a storing variable
+  let stor_var = parseInt(props.childrenAge) + 2
+  return (
+    <>
+      <p>The age of children is {stor_var}</p>
     </>
   )
 };
