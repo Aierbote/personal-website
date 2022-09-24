@@ -1,0 +1,17 @@
+header button.primary {
+    background-color: #f03a76;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 0;
+}
+
+.secondary {
+    background-color: #5e368c;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 0;
+}
