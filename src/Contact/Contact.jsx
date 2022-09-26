@@ -33,6 +33,7 @@ export default function Contact () {
                             <label for="title">Title</label>
                             <input type="text" id="title" placeholder="Enter Title" />
                         </div>
+                        {/* TODO : maybe better a type submit */}
                         <button>Submit</button>
                     </div>
                 </form>

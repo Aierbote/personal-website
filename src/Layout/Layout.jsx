@@ -6,6 +6,7 @@ import Strategic from "../Strategic/Strategic.jsx"
 import Team from "../Team/Team.jsx"
 import Portfolio from "../Portfolio/Portfolio.jsx"
 import Contact from "../Contact/Contact.jsx"
+import Footer from "../Footer/Footer.jsx"
 
 export default function Layout() {
     return (
@@ -19,6 +20,7 @@ export default function Layout() {
             {/* FIXME : pseudo-class :hover from Portfolio.css for buttons) */}
             <Portfolio />
             <Contact />
+            <Footer />
         </>
     )
 };
