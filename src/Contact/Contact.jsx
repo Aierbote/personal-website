@@ -11,18 +11,18 @@ export default function Contact () {
                 <form action="" method="post">
                     <div>
                         <div>
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="email" id="email" placeholder="Enter Name" />
                         </div>
                         <div>
-                            <label for="message">Message</label>
+                            <label htmlFor="message">Message</label>
                             <textarea rows="8" placeholder="Enter Message"></textarea>
                         </div>
                     </div>
 
                     <div>
                         <div>
-                            <label for="phone">Phone Number</label>
+                            <label htmlFor="phone">Phone Number</label>
                             <input
                                 type="tel"
                                 id="phone"
@@ -30,7 +30,7 @@ export default function Contact () {
                             />
                         </div>
                         <div>
-                            <label for="title">Title</label>
+                            <label htmlFor="title">Title</label>
                             <input type="text" id="title" placeholder="Enter Title" />
                         </div>
                         {/* TODO : maybe better a type submit */}

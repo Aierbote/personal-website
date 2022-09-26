@@ -1,7 +1,6 @@
 import "./App.css";
 import logo from "../assets/logo.svg";
-
-// import mangekyou_Sharingan_Sasuke_Eternal from "./mangekyou_Sharingan_Sasuke_Eternal.svg"
+import mangekyou from "../assets/mangekyou_sharingan_sasuke_eternal.gif"
 
 function App() {
   return (

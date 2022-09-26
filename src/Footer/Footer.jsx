@@ -6,7 +6,7 @@ export default function Footer () {
             <footer>
                 <div>
                     <h3>Navigate</h3>
-                    <ul class="withArrows">
+                    <ul className="withArrows">
                         <li>Home</li>
                         <li>Portfolio</li>
                         <li>Careers</li>
@@ -15,7 +15,7 @@ export default function Footer () {
                 </div>
                 <div>
                     <h3>Social Media</h3>
-                    <ul class="noArrows">
+                    <ul className="noArrows">
                         <li>Facebook</li>
                         <li>Instagram</li>
                         <li>Linkedin</li>
@@ -23,7 +23,7 @@ export default function Footer () {
                 </div>
                 <div>
                     <h3>About Us</h3>
-                    <ul class="noArrows">
+                    <ul className="noArrows">
                         <li>Privacy Policy</li>
                         <li>Terms & Conditions</li>
                     </ul>

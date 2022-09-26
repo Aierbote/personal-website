@@ -4,11 +4,6 @@
     align-items: center;
 }
 
-/* TODO : these color are to dark */
-#contact label, #contact input {
-        color: white;
-}
-
 #contact h2 {
     margin-top: 2.5rem;
     font-weight: 700;
@@ -24,7 +19,7 @@
 #contact > div + form {
     display: flex;
     justify-content: space-around;
-    font-weight: 100;
+    font-weight: 500;
     gap: 4rem;
     margin-top: 4rem;
 }
@@ -45,8 +40,10 @@
     width: 440px;
     padding: 0.6rem 1.25rem;
     background-color: transparent;
-    font-weight: 100;
+    font-weight: 500;
     margin-top: 0.5rem;
+    color: white;
+
 }
 
 #contact input::placeholder, #contact textarea::placeholder{
