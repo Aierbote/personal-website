@@ -47,10 +47,11 @@
 }
 
 #contact input::placeholder, #contact textarea::placeholder{
-    color: #C7E0FA;
+    color: white;
+    font-weight: 500;
 }
 
-#contact button {
+/* #contact #submit {
     margin-top: 1rem;
     background-color: #f03a76;
     font-weight: bold;
@@ -62,9 +63,9 @@
     box-shadow: 0px 10px 15px rgba(240, 58, 118, 0.18);
     width: fit-content;
     float: right;
-}
+} */
 
-#contact button:hover{
+/* #contact #submit:hover{
     background-color: #fff;
     color: #F03A76;
-}
+} */

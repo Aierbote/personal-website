@@ -47,7 +47,7 @@
 }
 
 #portfolio .slider button {
-    background-color: #F03A76;
+    /* background-color: #F03A76; */
     border: 0;
     border-radius: 50%;
     width: 50px;
@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    /* color: white; */
 }
 
 /*

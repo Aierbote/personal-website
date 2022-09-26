@@ -1,4 +1,5 @@
 import "./Contact.css"
+import InputOrElse from "../InputOrElse/InputOrElse.jsx"
 
 export default function Contact () {
     return (
@@ -10,31 +11,21 @@ export default function Contact () {
 
                 <form action="" method="post">
                     <div>
-                        <div>
-                            <label htmlFor="email">Email</label>
-                            <input type="email" id="email" placeholder="Enter Name" />
-                        </div>
-                        <div>
-                            <label htmlFor="message">Message</label>
-                            <textarea rows="8" placeholder="Enter Message"></textarea>
-                        </div>
+                        {/* NOTE : verify if its all rigthr in the console. 8 Warnings... BUT oddly
+                        thye disappear outside of Private Mode  */}
+                        <InputOrElse children="Email" inType="email" id="email" inName="email" inPlaceH="example@email.com" />
+                        <InputOrElse children="Message" inType="textarea" areaRows="8" id="message" inName="message" inPlaceH="Enter Message..." rows/>
                     </div>
 
                     <div>
                         <div>
-                            <label htmlFor="phone">Phone Number</label>
-                            <input
-                                type="tel"
-                                id="phone"
-                                placeholder="Enter Phone Number"
-                            />
+                            <InputOrElse children="Phone Number" inType="tel" id="phone" inName="phone" inPlaceH="Enter Phone Number" />
                         </div>
                         <div>
-                            <label htmlFor="title">Title</label>
-                            <input type="text" id="title" placeholder="Enter Title" />
+                            <InputOrElse children="Title" inType="text" id="title" inName="title" inPlaceH="Enter Title"/>
                         </div>
                         {/* TODO : maybe better a type submit */}
-                        <button>Submit</button>
+                        <InputOrElse className="button" inType="submit" id="submit" inValue="Submit"/>
                     </div>
                 </form>
             </section>

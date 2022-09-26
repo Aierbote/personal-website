@@ -1,17 +1,16 @@
 button.primary {
-
     background-color: #f03a76;
-
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold;
     border-radius: 50px;
     border: 0;
-
     white-space: nowrap;
     color: #DEECF9;
     box-shadow: 0px 10px 15px rgba(240, 58, 118, 0.18);
-    /*
-        background-color: #F03A76;
+}
+
+/*
+    background-color: #F03A76;
     border: 0;
     border-radius: 50%;
     width: 35px;
@@ -20,8 +19,8 @@ button.primary {
     align-items: center;
     justify-content: center;
     color: white;
-    */
-}
+*/
+
 
 /* button.primary svg path {
     color: white;
