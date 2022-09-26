@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button.primary:hover, input[type="submit"]#submit.submit:hover{
+  background-color: #fff;
+  color: #F03A76;
+  fill: #F03A76;
+}

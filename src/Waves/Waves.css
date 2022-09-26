@@ -2,4 +2,6 @@
     background-color: #000;
     margin-top: -25%;
     margin-bottom: -10%;
+    z-index: -1;
+    position: relative;
 }
