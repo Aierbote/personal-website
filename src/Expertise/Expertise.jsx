@@ -1,8 +1,8 @@
 import "./Expertise.css"
-import Card from "./Card"
-import mobileDev from "./assets/mobile app development 1.png"
-import webDev from "./assets/web-development 1.png"
-import webDesign from "./assets/Web-Designing 1.png"
+import Card from "../Card/Card.jsx"
+import mobileDev from "../assets/mobile app development 1.png"
+import webDev from "../assets/web-development 1.png"
+import webDesign from "../assets/Web-Designing 1.png"
 
 export default function Expertise() {
     return (

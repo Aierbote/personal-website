@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./logo.svg";
+import logo from "../assets/logo.svg";
 
 // import mangekyou_Sharingan_Sasuke_Eternal from "./mangekyou_Sharingan_Sasuke_Eternal.svg"
 

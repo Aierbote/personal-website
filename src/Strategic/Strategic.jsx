@@ -1,5 +1,5 @@
 import "./Strategic.css"
-import globe from "./assets/globe.png"
+import globe from "../assets/globe.png"
 
 export default function Strategic () {
     return (

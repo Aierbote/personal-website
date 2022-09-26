@@ -1,7 +1,7 @@
 import "./Fatima.css"
-import Button from "./Button"
-import phone from "./assets/phone.png"
-//  TODO : move the assets folder inside public, IF POSSIBLE
+import Button from "../Button/Button"
+import "../Button/Button.css"
+import phone from "../assets/phone.png"
 
 export default function Fatima() {
     return (

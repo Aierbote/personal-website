@@ -1,5 +1,5 @@
 import "./Waves.css"
-import waves from "./assets/waves.svg"
+import waves from "../assets/waves.svg"
 
 export default function Waves() {
     return (
