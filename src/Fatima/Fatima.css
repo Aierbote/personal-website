@@ -7,3 +7,8 @@ header {
 header span {
     color: #f03a76;
 }
+
+header > img {
+    height: 95%;
+    width: 95%;
+}

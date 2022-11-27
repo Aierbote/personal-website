@@ -47,6 +47,7 @@
 }
 
 #contact input::placeholder, #contact textarea::placeholder{
+    font-family: inherit;
     color: white;
     font-weight: 500;
 }

@@ -17,7 +17,6 @@ export default function Layout() {
             <Expertise />
             <Strategic />
             <Team />
-            {/* FIXME : pseudo-class :hover from Portfolio.css for buttons) */}
             <Portfolio />
             <Contact />
             <Footer />
